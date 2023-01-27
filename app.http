@@ -1,0 +1,27 @@
+###
+//GET Players API
+GET http://localhost:3000/players/
+
+###
+//GET Player API
+GET http://localhost:3000/players/2/
+
+###
+//Update Player API
+PUT http://localhost:3000/players/4/
+
+###
+//Get Match API
+GET http://localhost:3000/matches/18/
+
+###
+//Get All Matches of Player API
+GET http://localhost:3000/players/1/matches
+
+###
+//Get players API
+GET http://localhost:3000/matches/1/players
+
+###
+//Get Statistics of Player API
+GET http://localhost:3000/players/1/playerScores
